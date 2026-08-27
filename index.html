@@ -1,14 +1,236 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>Weedzard Edibles | WDZRD</title>
+
+    <meta
+        name="description"
+        content="Weedzard Edibles. Edibles artesanales hechos en México para que saborees el viaje a tu manera."
+    >
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
+
 <body>
-    <h1>WDZRD</h1>
-    <p>La vida se trata de con quién compartes tus viajes.</p>
-    <p>La nueva web está en camino ✨</p>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="header">
+
+        <a class="brand" href="index.html">
+            <img
+                src="assets/images/logo-wdzrd.png"
+                alt="WDZRD Edibles"
+            >
+        </a>
+
+        <button
+    class="menu-toggle"
+    type="button"
+    aria-label="Abrir menú"
+    aria-expanded="false"
+>
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+        <nav class="nav">
+
+            <a href="productos.html">
+                Productos
+            </a>
+
+            <a href="nosotros.html">
+                Nosotros
+            </a>
+
+            <a href="estudios.html">
+                Estudios
+            </a>
+
+            <a href="blog.html">
+                Blog
+            </a>
+
+            <a href="faq.html">
+                FAQ
+            </a>
+
+        </nav>
+
+
+        <div class="header-right">
+
+            <span class="cart">
+                🛒 <strong>0</strong>
+            </span>
+
+            <span class="divider"></span>
+
+            <span class="age">
+                +18
+            </span>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HOME / HERO
+        ================================================== -->
+
+        <section
+            class="hero"
+            id="inicio"
+        >
+
+
+            <!-- HERO LEFT -->
+
+            <div class="hero-copy">
+
+                <h1>
+                    LA VIDA<br>
+                    SE TRATA DE CON<br>
+                    QUIEN COMPARTES<br>
+                    TUS VIAJES.
+                </h1>
+
+
+                <p>
+                    Edibles artesanales 100% Mexicanos creados para que saborees
+                    el viaje a tu manera.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="productos.html"
+                        class="button button-primary"
+                    >
+                        Explorar productos
+                    </a>
+
+
+                    <a
+                        href="nosotros.html"
+                        class="button button-secondary"
+                    >
+                        Conoce Weedzard
+                    </a>
+
+                </div>
+
+
+                <!-- BENEFITS -->
+
+                <div class="benefits">
+
+                    <div class="benefit">
+                        <span>🇲🇽</span>
+                        <p>HECHO EN MÉXICO</p>
+                    </div>
+
+                    <div class="benefit">
+                        <span></span>
+                        <p>TESTADO EN LABORATORIO</p>
+                    </div>
+
+                    <div class="benefit">
+                        <span></span>
+                        <p>ENVÍOS A TODO EL PAÍS</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 HERO RIGHT
+            ================================================== -->
+
+            <div class="hero-visual">
+
+
+                <!-- NEBULOSA -->
+
+                <div
+                    class="nebula-bg"
+                    aria-hidden="true"
+                ></div>
+
+
+                <!-- ÓRBITAS -->
+
+                <div class="orbit orbit-one"></div>
+
+                <div class="orbit orbit-two"></div>
+
+                <div class="orbit orbit-three"></div>
+
+
+                <!-- MAGO -->
+
+                <div class="wizard-wrap">
+
+                    <img
+                        src="assets/images/wizard.png"
+                        alt="Mago de WDZRD"
+                    >
+
+                </div>
+
+
+                <!-- TRANSPARENCIA -->
+
+                <div class="transparency-card">
+
+                    <div class="lab-icon">
+                        ⚗
+                    </div>
+
+                    <strong>
+                        TRANSPARENCIA
+                    </strong>
+
+                    <p>
+                        Estudios disponibles<br>
+                        Consulta por producto
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
